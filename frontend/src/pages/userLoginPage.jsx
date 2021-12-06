@@ -29,6 +29,7 @@ const UserLoginPage = ({ setLogin }) => {
   let [errorMessage, setMessage] = useState(null);
   let loginFormRef = useRef();
 
+  // Yuanyuan: It is thoughtful to add the feature of showing password when checking the box. Although it is a small feature, it shows the usability of your website.
   //Show password when check box
   const togglePassword = (e) => {
     e.preventDefault();
